@@ -189,8 +189,7 @@ const Footer: React.FC = () => {
     </button>
   </div>
 </div>
-</div> {/* <-- Extra closing tag */}
-</div> {/* <-- Extra closing tag */}
+{/* <-- Extra closing tag */}
 
         {/* Bottom Bar */}
         <div className="border-t border-gray-800 pt-8">
