@@ -190,7 +190,7 @@ const Footer: React.FC = () => {
                 </button>
               </div>
             </div>
-          </div>
+
         </div>
 
         {/* Bottom Bar */}
