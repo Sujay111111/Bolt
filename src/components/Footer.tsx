@@ -56,7 +56,6 @@ const Footer: React.FC = () => {
               Master every technology domain with comprehensive courses, hands-on projects, and expert guidance. 
               Join thousands of students building their tech careers.
             </p>
-            
             {/* Social Links */}
             <div className="flex space-x-4">
               {socialLinks.map((social) => {
@@ -155,41 +154,39 @@ const Footer: React.FC = () => {
         </div>
 
         {/* Bolt Badge Section */}
-        <div className="flex items-center space-x-3">
-  <a href="https://bolt.new/" target="_blank" rel="noopener noreferrer">
-    <img
-      src="/black_circle_360x360.png"
-      alt="Powered by Bolt"
-      className="w-12 h-12 hover:scale-110 transition-transform duration-300"
-    />
-  </a>
-  <div>
-    <p className="text-sm font-medium text-gray-300">Built with</p>
-    <p className="text-xs text-gray-500">Bolt.new - Made in Bolt</p>
-  </div>
-</div>
+        <div className="flex items-center space-x-3 mb-6">
+          <a href="https://bolt.new/" target="_blank" rel="noopener noreferrer">
+            <img
+              src="/black_circle_360x360.png"
+              alt="Powered by Bolt"
+              className="w-12 h-12 hover:scale-110 transition-transform duration-300"
+            />
+          </a>
+          <div>
+            <p className="text-sm font-medium text-gray-300">Built with</p>
+            <p className="text-xs text-gray-500">Bolt.new - Made in Bolt</p>
+          </div>
+        </div>
 
-{/* Hackathon Badge */}
-<div className="bg-gradient-to-r from-purple-600 to-blue-600 px-4 py-2 rounded-full">
-  <span className="text-sm font-medium text-white">🏆 Hackathon Project</span>
-</div>
-</div> {/* <-- Likely extra closing tag */}
+        {/* Hackathon Badge */}
+        <div className="bg-gradient-to-r from-purple-600 to-blue-600 px-4 py-2 rounded-full mb-6">
+          <span className="text-sm font-medium text-white">🏆 Hackathon Project</span>
+        </div>
 
-{/* Newsletter Signup */}
-<div className="flex items-center space-x-3">
-  <span className="text-sm text-gray-400">Stay updated:</span>
-  <div className="flex">
-    <input
-      type="email"
-      placeholder="Enter email"
-      className="bg-gray-800 border border-gray-700 rounded-l-lg px-3 py-2 text-sm text-white placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-primary-500 focus:border-transparent"
-    />
-    <button className="bg-primary-600 hover:bg-primary-700 px-4 py-2 rounded-r-lg text-sm font-medium transition-colors">
-      Subscribe
-    </button>
-  </div>
-</div>
-{/* <-- Extra closing tag */}
+        {/* Newsletter Signup */}
+        <div className="flex items-center space-x-3 mb-8">
+          <span className="text-sm text-gray-400">Stay updated:</span>
+          <div className="flex">
+            <input
+              type="email"
+              placeholder="Enter email"
+              className="bg-gray-800 border border-gray-700 rounded-l-lg px-3 py-2 text-sm text-white placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-primary-500 focus:border-transparent"
+            />
+            <button className="bg-primary-600 hover:bg-primary-700 px-4 py-2 rounded-r-lg text-sm font-medium transition-colors">
+              Subscribe
+            </button>
+          </div>
+        </div>
 
         {/* Bottom Bar */}
         <div className="border-t border-gray-800 pt-8">
@@ -203,7 +200,6 @@ const Footer: React.FC = () => {
                 <span>for Students</span>
               </span>
             </div>
-            
             <div className="flex items-center space-x-4 text-sm text-gray-400">
               <span>🌍 Global Community</span>
               <span>•</span>
