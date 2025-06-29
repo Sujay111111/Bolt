@@ -169,29 +169,28 @@ const Footer: React.FC = () => {
   </div>
 </div>
 
-              
-              {/* Hackathon Badge */}
-              <div className="bg-gradient-to-r from-purple-600 to-blue-600 px-4 py-2 rounded-full">
-                <span className="text-sm font-medium text-white">🏆 Hackathon Project</span>
-              </div>
-            </div>
+{/* Hackathon Badge */}
+<div className="bg-gradient-to-r from-purple-600 to-blue-600 px-4 py-2 rounded-full">
+  <span className="text-sm font-medium text-white">🏆 Hackathon Project</span>
+</div>
+</div> {/* <-- Likely extra closing tag */}
 
-            {/* Newsletter Signup */}
-            <div className="flex items-center space-x-3">
-              <span className="text-sm text-gray-400">Stay updated:</span>
-              <div className="flex">
-                <input
-                  type="email"
-                  placeholder="Enter email"
-                  className="bg-gray-800 border border-gray-700 rounded-l-lg px-3 py-2 text-sm text-white placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-primary-500 focus:border-transparent"
-                />
-                <button className="bg-primary-600 hover:bg-primary-700 px-4 py-2 rounded-r-lg text-sm font-medium transition-colors">
-                  Subscribe
-                </button>
-              </div>
-            </div>
-
-        </div>
+{/* Newsletter Signup */}
+<div className="flex items-center space-x-3">
+  <span className="text-sm text-gray-400">Stay updated:</span>
+  <div className="flex">
+    <input
+      type="email"
+      placeholder="Enter email"
+      className="bg-gray-800 border border-gray-700 rounded-l-lg px-3 py-2 text-sm text-white placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-primary-500 focus:border-transparent"
+    />
+    <button className="bg-primary-600 hover:bg-primary-700 px-4 py-2 rounded-r-lg text-sm font-medium transition-colors">
+      Subscribe
+    </button>
+  </div>
+</div>
+</div> {/* <-- Extra closing tag */}
+</div> {/* <-- Extra closing tag */}
 
         {/* Bottom Bar */}
         <div className="border-t border-gray-800 pt-8">
