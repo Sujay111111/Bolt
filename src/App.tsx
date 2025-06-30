@@ -4,7 +4,6 @@ import { AuthProvider } from './contexts/AuthContext';
 import Header from './components/Header';
 import Footer from './components/Footer';
 import StudyAssistantChatbot from './components/StudyAssistantChatbot';
-import OnboardingChatbot from './components/OnboardingChatbot';
 import LoadingScreen from './components/LoadingScreen';
 import LandingPage from './pages/LandingPage';
 import Dashboard from './pages/Dashboard';
@@ -61,7 +60,6 @@ function App() {
             </main>
             <Footer />
             <StudyAssistantChatbot />
-            <OnboardingChatbot />
           </div>
         </Router>
       </AuthProvider>
